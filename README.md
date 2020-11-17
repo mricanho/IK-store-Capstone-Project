@@ -1,6 +1,8 @@
 # Using Bootstrap . Newsweek clone
 Online shop for IK - Capstone Project
 
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+
 ![screenshot](../featureDev/screenshot.jpeg)
 
 
