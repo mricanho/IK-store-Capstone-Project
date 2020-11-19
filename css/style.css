@@ -314,4 +314,9 @@ footer ul li {
   .wrap-results {
     border-right: 1px solid var(--color-grey);
   }
+
+  .bottom-f .social-networks {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 }
