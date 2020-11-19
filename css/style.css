@@ -18,18 +18,18 @@ body {
 
 @font-face {
   font-family: 'Helvetica-light';
-  src: url('Fonts/Helvetica\ Neue\ LT\ 45\ Light.woff');
+  src: url('Fonts/HelveticaNeueLT45Light.woff');
 }
 
 @font-face {
   font-family: 'Helvetica-medium';
-  src: url('Fonts/Helvetica\ Neue\ LT\ 65\ Medium.woff');
+  src: url('/Fonts/HelveticaNeueLT65Medium.woff');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Helvetica-Bold';
-  src: url('Fonts/Helvetica\ Neue\ LT\ 75\ Bold.woff');
+  src: url('Fonts/HelveticaNeueLT75Bold.woff');
 }
 
 :root {
