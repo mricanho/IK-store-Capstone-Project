@@ -23,7 +23,7 @@
           </li>
           <li class="nav-icons">
             <i class="fas fa-home"></i>
-            <a class="home n-tittles" href="#">HOME</a>
+            <a onclick="location.href='home.html'" class="home n-tittles" href="#">HOME</a>
           </li>
           <li class="nav-icons">
             <i class="fas fa-border-all"></i>
@@ -45,7 +45,42 @@
       </nav>
     </header> 
 
-    <main> 
+    <main>
+      <div class="search-bar d-none d-md-block">
+        <div class="container d-flex flex-column justify-content-center">
+          <div class="up d-flex flex-column justify-content-center mt-5 text-center align-items-center">
+            <img class="ik-search" src="assets/IK-logo.png" alt="IK-logo" width="80"/>
+            <p class="small mt-2 subtittle">Ethical And Sustainable Fashion Brand.</p>
+          </div>
+          <div class="down d-flex justify-content-center">
+            <form>
+              <div class="form-row align-items-baseline">
+                <div class="col-auto my-1 d-flex container-1 px-0">
+                  <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                  <select class="custom-select box-1 custom-select-sm radious0" id="inlineFormCustomSelect">
+                    <option selected>All Fabrics</option>
+                    <option value="1">Recycled Polyester</option>
+                    <option value="2">Recycled Cotton</option>
+                    <option value="3">Organic Cotton</option>
+                  </select>        
+                </div>
+                <div class="container-2">
+                  <label class="sr-only" for="inlineFormInputName2">Name</label>
+                  <input type="text" class="form-control form-control-sm mb-2 mr-0 radious0 box-2 col-auto" id="inlineFormInputName2" placeholder="What are you looking for?">
+                </div>
+                <div class="container-3 mr-2">
+                  <label class="sr-only" for="inlineFormInputName3">Name</label>
+                  <input type="text" class="form-control form-control-sm mb-2 mr-0 radious0 box-3 col-auto" id="inlineFormInputName3" placeholder="What size do you wish?">
+                </div>
+                <div class="btn btn-search radious0" onclick="window.location.href='search.html'">Search</div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+
+      </div>
       <form>
         <div class="form-group row mx-0 mt-3">
           <div class="col-12 form-tittle">
