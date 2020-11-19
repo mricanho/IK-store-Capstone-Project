@@ -21,7 +21,7 @@ For this project I use bootstrap as long with Flexbox.
 </ul>
 
 <h2>Live demo</h2>
-<a href="https://htmlpreview.github.io/?https://github.com/mricanho/IK-store-Capstone-Project/blob/featureDev/home.html">Visit Page</a>
+<a href="https://raw.githack.com/mricanho/IK-store-Capstone-Project/featureDev/home.html">Visit Page</a>
 
 <h2>Author</h2>
 <p><strong>Miguel Ricaño</strong></p>
