@@ -15,10 +15,10 @@
   <body>
 
     <header>
-      <nav class="nav-bar-1">
-        <ul class="d-flex px-0">
+      <nav class="nav-bar-1 d-md-flex">
+        <ul class="d-flex px-0 col-md-9">
           <li class="ik-logo nav-icons pointer">
-            <img src="assets/IK-logo.png" alt="ik-logo" width="25"/>
+            <img class="super-logo" src="assets/IK-logo.png" alt="ik-logo" width="25"/>
           </li>
           <li class="nav-icons">
             <i class="fas fa-home"></i>
@@ -32,8 +32,15 @@
             <i class="fas fa-shopping-cart"></i>
             <a class="purchase n-tittles" href="#">PURCHASE LIST</a>
           </li>
+          <li class="nav-icons d-none d-md-flex">
+            <button type="button" class="offers bold pointer">View Offers</button>
+          </li>
         </ul>
-        
+        <div class="right-side d-none d-md-flex grey col-md-3 align-items-center justify-content-center">
+          <i class="fas fa-envelope right-icon1 right-icon pointer"></i>
+          <p class="right-icon2 m-0 right-icon pointer">Karen</p>
+          <i class="fas fa-user right-icon3 right-icon pointer"></i>        
+        </div>
       </nav>
       
     </header> 
@@ -335,35 +342,35 @@
     <footer>
       <div class="container px-4">
         <div class="ik">
-          <img src="assets/red-ik.png" class="ik-logo" alt="ik-red" width="50"/>
+          <img onclick="location.href='home.html'" src="assets/red-ik.png" class="ik-logo pointer" alt="ik-red" width="50"/>
           <p class="text-logo small">Ethical and Sustainable</p>
         </div>
         <div class="categories">
           <h6 class="footer-tittle red">Categories</h6>
           <div class="categories-list">
             <ul class="ul-one">
-              <li>Men</li>
-              <li>Women</li>
-              <li>Kids</li>
-              <li>Basics</li>
+              <li class="pointer">Men</li>
+              <li class="pointer">Women</li>
+              <li class="pointer">Kids</li>
+              <li class="pointer">Basics</li>
             </ul>
             <ul class="ul-two">
-              <li>Tops</li>
-              <li>Jackets</li>
-              <li>Skirts</li>
-              <li>T-shirts</li>
+              <li class="pointer">Tops</li>
+              <li class="pointer">Jackets</li>
+              <li class="pointer">Skirts</li>
+              <li class="pointer">T-shirts</li>
             </ul>
           </div>
         </div>
         <div class="navigation">
           <h6 class="footer-tittle red">Navigation</h6>
           <ul>
-            <li>Home</li>
-            <li>Sign In</li>
-            <li>Sign Up</li>
-            <li>Terms & Conditions</li>
-            <li>FAQ</li>
-            <li>HELP</li>
+            <li class="pointer">Home</li>
+            <li class="pointer">Sign In</li>
+            <li class="pointer">Sign Up</li>
+            <li class="pointer">Terms & Conditions</li>
+            <li class="pointer">FAQ</li>
+            <li class="pointer">HELP</li>
           </ul>
         </div>
         <div class="configuration">

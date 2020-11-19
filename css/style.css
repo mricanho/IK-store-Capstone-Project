@@ -62,8 +62,12 @@ h6 {
 }
 
 a,
-p {
+p, div {
   font-family: 'Helvetica-light', sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 nav {
@@ -78,10 +82,6 @@ nav ul {
   justify-content: space-evenly;
   height: 100%;
   align-items: center;
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 nav .nav-icons,
@@ -101,7 +101,7 @@ nav ul li i {
 }
 
 .nav-icons:hover,
-.n-tittles:hover {
+.n-tittles:hover, .right-icon:hover {
   color: var(--color-red);
   text-decoration: none;
 }
@@ -126,7 +126,7 @@ nav ul li i {
   font-size: 10px;
 }
 
-.btn-add:hover {
+.btn-add:hover, .pages:hover {
   background-color: var(--color-black);
   color: var(--color-red);
 }
@@ -195,4 +195,58 @@ footer ul li {
 .pages2 {
   padding-left: 1px;
   margin-left: 8px;
+}
+
+/* 768px  */
+
+
+
+@media screen and (min-width: 768px) {
+  /* nav */
+  nav {
+    height: 60px;
+  }
+
+  .super-logo {
+    width: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+  }
+
+  nav ul li i {
+    font-size: 0.9rem;
+  }
+  
+  .n-tittles {
+    font-size: .9rem;
+  }
+
+  .offers {
+    background-color: var(--color-red);
+    border: none;
+    color: whitesmoke;
+    padding-top: 2px;
+    width: 110px;
+    border-radius: 3px;
+  }
+
+  .right-side {
+    font-size: 1rem;
+  }
+
+  .right-icon1 {
+    margin-right: 20px;
+  }
+
+  .right-icon3 {
+    margin-left: 20px;
+    padding-bottom: 3px;
+  }
+
 }
