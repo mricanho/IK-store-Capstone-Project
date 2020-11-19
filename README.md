@@ -1,10 +1,15 @@
 # Using Bootstrap . Newsweek clone
 Online shop for IK - Capstone Project
 
+I build a site for IK sustainable, a sustainable fashion brand.
+
 Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 ![screenshot](../featureDev/screenshot.jpeg)
 
+This website is responsive and have 2 pages, a main(home) page and a search page, linked between each other. 
+
+For this project I use bootstrap as long with Flexbox.
 
 
 
@@ -16,7 +21,7 @@ Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 </ul>
 
 <h2>Live demo</h2>
-<a href="https://mricanho.github.io/IK-store-Capstone-Project/">Visit Page</a>
+<a href="https://htmlpreview.github.io/?https://github.com/mricanho/IK-store-Capstone-Project/blob/featureDev/home.html">Visit Page</a>
 
 <h2>Author</h2>
 <p><strong>Miguel Ricaño</strong></p>

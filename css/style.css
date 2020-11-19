@@ -259,7 +259,7 @@ footer ul li {
   .search-bar {
     width: 100%;
     height: 250px;
-    background-color: var(--color-red);
+    background-image: url(../assets/cover.png);
   }
 
   .container-1,
@@ -283,7 +283,6 @@ footer ul li {
     color: white;
     height: 40px;
     text-align: center;
-    
   }
 
   .redbox-1 {
@@ -292,7 +291,6 @@ footer ul li {
     border-right: 1px solid var(--color-black);
     border-radius: 3px;
     padding-top: 10px;
-    
   }
 
   .redbox-2 {
@@ -305,9 +303,9 @@ footer ul li {
 
   .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-   }
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
 }
