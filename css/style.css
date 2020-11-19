@@ -51,12 +51,18 @@ body {
   font-weight: 800;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Helvetica-medium', sans-serif;
   font-weight: 600;
 }
 
-a, p {
+a,
+p {
   font-family: 'Helvetica-light', sans-serif;
 }
 
@@ -114,7 +120,7 @@ nav ul li i {
   width: 20px;
   height: 20px;
   padding: 3px;
-  margin: 0;  
+  margin: 0;
   vertical-align: middle;
   color: var(--color-grey);
   font-size: 10px;
@@ -123,4 +129,54 @@ nav ul li i {
 .btn-add:hover {
   background-color: var(--color-black);
   color: var(--color-red);
+}
+
+/* footer */
+
+.ik {
+  margin-top: 40px;
+}
+
+.footer-tittle {
+  border-bottom: 3px solid var(--color-red);
+}
+
+.categories-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  color: var(--color-grey);
+  font-size: 0.8rem;
+}
+
+.configuration ul .options {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+}
+
+.footer-button {
+  background-color: white;
+  color: var(--color-grey);
+  border: 1px solid var(--color-grey);
+  margin-left: 20px;
+}
+
+.legend,
+.social-networks {
+  color: var(--color-grey);
+  font-family: 'Helvetica-light', sans-serif;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.f-icon {
+  margin-right: 15px;
 }
