@@ -1,9 +1,15 @@
 # Using Bootstrap . Newsweek clone
-This project is a clone of the website https://www.newsweek.com/, 
+Online shop for IK - Capstone Project
 
-![screenshot](../featureDev2/screenshot.jpeg)
+I build a site for IK sustainable, a sustainable fashion brand.
 
-The main goal is to master Bootstrap as a big and agile framework to create astonishing websites. 
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+
+![screenshot](../featureDev/screenshot.jpeg)
+
+This website is responsive and has 2 pages, a main(home) page, and a search page, linked between each other. 
+
+For this project, I've been using Bootstrap and CSS flexbox also.
 
 
 <h2>Built with</h2>
@@ -14,7 +20,7 @@ The main goal is to master Bootstrap as a big and agile framework to create asto
 </ul>
 
 <h2>Live demo</h2>
-<a href="https://mricanho.github.io/Using-Bootstrap/">Visit Page</a>
+<a href="https://mricanho.github.io/IK-store-Capstone-Project/index.html">Visit Page</a>
 
 <h2>Author</h2>
 <p><strong>Miguel Ricaño</strong></p>
@@ -22,14 +28,10 @@ The main goal is to master Bootstrap as a big and agile framework to create asto
   <li>Github: <a href="https://github.com/mricanho">@mricanho</a>
   <li>LinkedIn: <a href="https://www.linkedin.com/in/mricanho/">Miguel Ricaño</a></li>
 </ul>
-<ul>
-  <li>Github: <a href="https://github.com/shahnaeem">@mricanho</a>
-  <li>LinkedIn: <a href="https://linkedin.com/in/mohd-nayeem-shah-97a590152">Mohammad Naeem Shah</a></li>
-</ul>
   
 <h2>Contributing</h2>
 <p>Contributions, issues, and feature requests are welcome!<p>
-<p>Feel free to check the <a href="https://github.com/mricanho/Using-Bootstrap/issues/1">issues page.</a></p>
+<p>Feel free to check the <a href="https://github.com/mricanho/IK-store-Capstone-Project/issues/1">issues page.</a></p>
  
 <h2>Show your support</h2>
 <p> Give a 
@@ -37,4 +39,4 @@ The main goal is to master Bootstrap as a big and agile framework to create asto
   if you like this project!</p>
   
 <h2>License</h2>
-  <p>This project is <a href="https://github.com/mricanho/Using-Bootstrap/blob/main/LICENSE">MIT</a>licensed.<p>
+  <p>This project is <a href="https://github.com/mricanho/IK-store-Capstone-Project/blob/main/LICENSE">MIT</a> licensed.<p>
