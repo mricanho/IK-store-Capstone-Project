@@ -1,5 +1,4 @@
-# Using Bootstrap . Newsweek clone
-Online shop for IK - Capstone Project
+# Online shop for IK - Capstone Project
 
 I build a site for IK sustainable, a sustainable fashion brand.
 
