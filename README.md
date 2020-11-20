@@ -7,10 +7,9 @@ Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 ![screenshot](../featureDev/screenshot.jpeg)
 
-This website is responsive and have 2 pages, a main(home) page and a search page, linked between each other. 
+This website is responsive and has 2 pages, a main(home) page, and a search page, linked between each other. 
 
-For this project I use bootstrap as long with Flexbox.
-
+For this project, I've been using Bootstrap and CSS flexbox also.
 
 
 <h2>Built with</h2>
