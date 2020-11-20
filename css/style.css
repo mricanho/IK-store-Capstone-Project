@@ -155,7 +155,10 @@ nav ul li i {
 
 .categories-list {
   display: flex;
-  justify-content: space-evenly;
+}
+
+.ul-one {
+  margin-right: 70px;
 }
 
 footer ul {
@@ -318,5 +321,20 @@ footer ul li {
   .bottom-f .social-networks {
     font-size: 20px;
     margin-bottom: 15px;
+  }
+
+  .legend {
+    font-size: 0.85rem;
+  }
+
+  .tittle-s {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .here {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
